@@ -1,0 +1,48 @@
+body{
+	background-image:url('pictures/ma.jpg');
+	overflow:auto;
+	animation:change-background 10s infinite;
+	text-align:center;
+}
+header{
+	   background-color:blue;
+}
+  .menu-icon{
+	        display:block;
+			cursor:pointer;
+  }
+  .menu-icon span{
+	           display:block;
+			   width:30px;
+			   height:3px;
+			   background-color:black;
+			   margin-bottom:5px;
+  }
+  .nav-menu{
+	  display:none;
+  }
+  .nav-menu ul{
+	         list-style:none;
+			 padding:0;
+			 margin:0;
+  }
+  .nav-menu a{
+	    text-decoration:none;
+		color:black;
+  }
+  @media(min-width:768px){
+	                .menu-icon{
+						display:none;
+					}
+					.nav-menu{
+						display:block;
+					}
+					.hide-on-desktop{
+						  display:inline-block;
+						  margin-right:20px;
+					}
+h1{
+    color:white;
+}	
+h2{
+	color:white;
